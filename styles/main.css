@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+}
+
+.page_accueil {
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  padding: 12px;
+}

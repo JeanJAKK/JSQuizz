@@ -1,17 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
     <title>Wizzy Quizz</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--PAGE ACCUEIL-->
     <div class="page_accueil">
+      <div class="header">
+        <!--Logo et message d'entrée-->
+        <h1>Wizzy Quizz</h1>
+        <p>Testez vos connaissances en 10 questions</p>
+      </div>
 
-        <div class="header">    <!--Logo et message d'entrée-->
-            <h1>Wizzy Quizz</h1>
-            <p>Testez vos connaissances en 10 questions</p>
+      <div class="content">
+        <!--Encadré-->
+        <p>Votre pseudo</p>
+        <input type="text" name="" id="" />
+
+        <div class="categorie">
+          <!--Catégorie-->
+          <button>Javascript</button>
+          <button>HTML</button>
+          <button>CSS</button>
+          <button>Culture générale</button>
         </div>
 
         <div class="content">  <!--Encadré--> 
@@ -34,68 +48,76 @@
             </div>
             <button>Démarrer le quiz ></button> <!--Boutton de démarrage--> 
             <p>Remplissez tous les champs pour commencer</p>
+        <div class="difficulty">
+          <!--Niveau de difficulté-->
+          <button>Facile</button>
+          <button>Moyen</button>
+          <button>Difficile</button>
         </div>
-
+        <button>Démarrer le quiz ></button>
+        <!--Boutton de démarrage-->
+        <p>Remplissez tous les champs pour commencer</p>
+      </div>
     </div>
-
-
 
     <!--PAGE QUIZ-->
     <div class="page_quiz">
-        <div class="parametres_quiz">
-
-            <div class="infos_quiz_left">   <!--Infos à gauche-->
-                <p>{Pseudo}: . {Catégorie}</p>
-                <p>Question {numCourant}/10</p>
-            </div>
-
-            <div class="infos_quiz_right">  <!--Infos à droite-->
-                <p>{nombrePoints} pts</p>
-            </div>
-
+      <div class="parametres_quiz">
+        <div class="infos_quiz_left">
+          <!--Infos à gauche-->
+          <p>{Pseudo}: . {Catégorie}</p>
+          <p>Question {numCourant}/10</p>
         </div>
 
-       <div>    <!--Partie questions et proposition-->
+        <div class="infos_quiz_right">
+          <!--Infos à droite-->
+          <p>{nombrePoints} pts</p>
+        </div>
+      </div>
 
-            <div class="question">
-                <p>{Question}</p>
-            </div>
+      <div>
+        <!--Partie questions et proposition-->
 
-            <div class="reponses">
-                <button>{Proposition1}</button>
-                <button>{Proposition2}</button>
-                <button>{Proposition3}</button>
-                <button>{Proposition4}</button>
-            </div>
+        <div class="question">
+          <p>{Question}</p>
+        </div>
 
-       </div>
+        <div class="reponses">
+          <button>{Proposition1}</button>
+          <button>{Proposition2}</button>
+          <button>{Proposition3}</button>
+          <button>{Proposition4}</button>
+        </div>
+      </div>
     </div>
-
 
     <!--PAGE RESULTAT-->
     <div class="page_resultat">
+      <div class="param_quiz">
+        <!--Infos ou paramètres sur le Quiz-->
+        <p>{Pseudo} . {Catégorie} . {Difficulté}</p>
+      </div>
 
-        <div class="param_quiz">    <!--Infos ou paramètres sur le Quiz-->
-            <p>{Pseudo} . {Catégorie} . {Difficulté}</p>
-        </div>
+      <div class="score"></div>
+      <!--Partie Score-->
 
-        <div class="score"></div>   <!--Partie Score-->
+      <p class="conseil">Conseil</p>
+      <!--Partie conseil. Exple: à Réviser!-->
 
-        <p class="conseil">Conseil</p>  <!--Partie conseil. Exple: à Réviser!-->
+      <div class="bilan">
+        <!--Partie Bilan-->
+        <p>Bonnes réponses</p>
+        <p>Mauvaises réponses</p>
+        <p>Temps Moyen</p>
+      </div>
 
-        <div class="bilan"> <!--Partie Bilan-->
-            <p>Bonnes réponses</p>
-            <p>Mauvaises réponses</p>
-            <p>Temps Moyen</p>
-        </div>
+      <div class="revision"></div>
+      <!--Récap des questions et leurs réponses justes-->
 
-        <div class="revision"></div>    <!--Récap des questions et leurs réponses justes-->
-
-        <div class="actionFinale">  
-            <button>Rejouer</button>
-            <button>Classement</button>
-        </div>
-
+      <div class="actionFinale">
+        <button>Rejouer</button>
+        <button>Classement</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
