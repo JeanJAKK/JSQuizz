@@ -1,0 +1,41 @@
+.page_resultat {
+  /*display:;  */
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+}
+
+.param_quiz {
+  text-align: center;
+}
+
+.score {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.conseil {
+  text-align: center;
+}
+
+.bilan {
+  display: inline-block;
+  align-items: center;
+  width: 400px;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  padding: 12px;
+  margin-left: 33%;
+}
+
+.actionFinale {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 35%;
+  gap: 30px;
+}
+
+.actionFinale button {
+  width: 170px;
+}
