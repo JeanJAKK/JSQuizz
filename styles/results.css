@@ -1,7 +1,9 @@
 .page_resultat {
-  /*display:;  */
   border: 1px solid lightgrey;
   border-radius: 20px;
+  width: 600px;
+  margin: auto;
+  padding: 12px;
 }
 
 .param_quiz {
@@ -18,21 +20,22 @@
 }
 
 .bilan {
-  display: inline-block;
-  align-items: center;
+  display: block;
   width: 400px;
   border: 1px solid lightgrey;
   border-radius: 20px;
   padding: 12px;
-  margin-left: 33%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .actionFinale {
   display: flex;
-  align-items: center;
+  justify-content: space-evenly;
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-left: 35%;
+  margin-left: auto;
+  margin-right: auto;
   gap: 30px;
 }
 

@@ -1,6 +1,9 @@
 .page_quiz {
-  /*display:;  */
   border: 1px solid lightgrey;
+  border-radius: 20px;
+  width: 600px;
+  margin: auto;
+  padding: 12px;
   border-radius: 20px;
 }
 
