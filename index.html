@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/main.css" />
-    <link rel="stylesheet" href="/styles/quizz.css" />
-    <link rel="stylesheet" href="/styles/results.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/quizz.css" />
+    <link rel="stylesheet" href="styles/results.css" />
+    <script type="module" src="scripts/ui.js" defer></script>
     <title>Wizzy Quizz</title>
   </head>
   <body>
@@ -65,14 +66,14 @@
         <!--Partie questions et proposition-->
 
         <div class="question">
-          <p>{Question}</p>
+          <p></p>
         </div>
 
         <div class="reponses">
-          <button>{Proposition1}</button>
-          <button>{Proposition2}</button>
-          <button>{Proposition3}</button>
-          <button>{Proposition4}</button>
+          <button id="btn1"></button>
+          <button id="btn2"></button>
+          <button id="btn3"></button>
+          <button id="btn4"></button>
         </div>
       </div>
     </div>
