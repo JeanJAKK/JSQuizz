@@ -1,4 +1,5 @@
 .page_quiz {
+  display: none;
   border: 1px solid lightgrey;
   border-radius: 20px;
   width: 600px;
@@ -44,4 +45,13 @@
 
 .infos_quiz_left {
   padding-left: 8px;
+}
+
+.chrono {
+  background-color: red;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  width: 500px;
+  height: 6px;
+  margin: 12px auto 12px auto;
 }
