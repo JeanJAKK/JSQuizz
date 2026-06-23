@@ -16,6 +16,18 @@
   margin-top: 40px;
 }
 
+.reponses button,
+.question p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
 .question {
   display: block;
   border: 1px solid lightgrey;
