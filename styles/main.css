@@ -3,6 +3,7 @@ body {
 }
 
 .page_accueil {
+  display: block;
   width: 600px;
   margin: auto;
 }
